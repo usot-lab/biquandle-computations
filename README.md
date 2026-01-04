@@ -3,7 +3,7 @@
 This repository contains the code used to compute the invariants
 appearing in the paper:
 
-**Biquandle Virtual Brackets and Virtual Knotoids**
+**"Biquandle Virtual Brackets and Virtual Knotoids"**
 
 by Neslihan Gügümcü and Hamdi Kayaslan.
 
