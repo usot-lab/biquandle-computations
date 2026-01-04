@@ -144,6 +144,6 @@ Table 2
 python main.py all --bvb 17
 ```
 
-Notes
+Notes :
 Biquandles and biquandle virtual brackets are indexed by integers
 corresponding to their position in the dataset.
