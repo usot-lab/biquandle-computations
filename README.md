@@ -145,5 +145,24 @@ python main.py all --bvb 17
 ```
 
 Notes :
+
 Biquandles and biquandle virtual brackets are indexed by integers
 corresponding to their position in the dataset.
+
+## How to run the code
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/usot-lab/biquandle-computations.git
+   cd biquandle-computations
+   ```
+2. Install dependencies:
+   ```bash
+   pip install sympy numpy
+   ```
+3. Run a computation:
+   ```bash
+   python main.py count --list
+   ```
+
+
