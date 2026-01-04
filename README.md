@@ -33,41 +33,65 @@ to carry out by hand.
 ## Usage
 
 List available virtual knotoid codes (labels) and biquandles (indices) in the dataset:
-`python main.py count --list`
+```bash
+python main.py count --list
+```
 
 Compute the biquandle counting invariant and the biquandle counting matrix invariant of a virtual knotoid with the given biquandle:
-`python main.py count --code <LABEL> --biquandle <INDEX>`
+```bash
+python main.py count --code <LABEL> --biquandle <INDEX>
+```
 Example :
-`python main.py count --code 2.1.1 --biquandle 4`
+```bash
+python main.py count --code 2.1.1 --biquandle 4
+```
 
 List available virtual knotoid codes (labels) and biquandle virtual brackets (indices) in the dataset:
-`python main.py bvm_matrix --list`
+```bash
+python main.py bvm_matrix --list
+```
 
 Compute the biquandle virtual bracket matrix invariant of a virtual knotoid with respect to the given biquandle virtual bracket:
-`python main.py bvb_matrix --code <LABEL> --bvb <INDEX>`
+```bash
+python main.py bvb_matrix --code <LABEL> --bvb <INDEX>
+```
 Example :
-`python main.py bvb_matrix --code 2.1.1 --bvb 4`
+```bash
+python main.py bvb_matrix --code 2.1.1 --bvb 4
+```
 
 Validate a biquandle in the dataset or check if a new data you add to the biquandle storage actually is a valid biquandle:
-`python main.py validate --biquandle <INDEX>`
+```bash
+python main.py validate --biquandle <INDEX>
+```
 
 Validate a biquandle virtual bracket in the dataset or check if a new data you add to the biquandle virtual bracket storage actually is a valid biquandle virtual bracket:
-`python main.py validate --bvb <INDEX>`
+```bash
+python main.py validate --bvb <INDEX>
+```
 
 Compute biquandle counting invariants of all virtual knotoids in the dataset with a given biquandle:
-`python main.py all --biquandle <INDEX>`
+```bash
+python main.py all --biquandle <INDEX>
+```
 
 Compute biquandle virtual bracket matrix invariants of all virtual knotoids in the dataset with a given biquandle virtual bracket:
-`python main.py all --bvb <INDEX>`
+```bash
+python main.py all --bvb <INDEX>
+```
 
 Examples in the paper :
 
 Example 3.10
-`python main.py count --code 2.1.1 --biquandle 7`
+```bash
+python main.py count --code 2.1.1 --biquandle 7
+```
 
 Example 3.13 
-`python main.py count --code 2.1.1 --biquandle 6`
-`python main.py count --code 3.1.2 --biquandle 6`
+```bash
+python main.py count --code 2.1.1 --biquandle 6
+python main.py count --code 3.1.2 --biquandle 6
+```
 
 Example 3.21
 `python main.py count --code 2.1.2 --biquandle 6`
