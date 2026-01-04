@@ -90,31 +90,59 @@ python main.py count --code 2.1.1 --biquandle 7
 Example 3.13 
 ```bash
 python main.py count --code 2.1.1 --biquandle 6
+```
+```bash
 python main.py count --code 3.1.2 --biquandle 6
 ```
 
 Example 3.21
-`python main.py count --code 2.1.2 --biquandle 6`
-`python main.py count --code 4.1.2 --biquandle 6`
+```bash
+python main.py count --code 2.1.2 --biquandle 6
+```
+```bash
+python main.py count --code 4.1.2 --biquandle 6
+```
 
 Example 4.9
-`python main.py bvb_matrix --code 2.1.1 --bvb 2`
-`python main.py bvb_matrix --code 4.1.1 --bvb 2`
+```bash
+python main.py bvb_matrix --code 2.1.1 --bvb 2
+```
+```bash
+python main.py bvb_matrix --code 4.1.1 --bvb 2
+```
 
 Example 4.16
-`python main.py count --code 3.1.1 --biquandle 11`
-`python main.py count --code 3.1.3 --biquandle 11`
-`python main.py bvb_matrix --code 3.1.1 --bvb 2`
-`python main.py bvb_matrix --code 3.1.3 --bvb 2`
+```bash
+python main.py count --code 3.1.1 --biquandle 11
+```
+```bash
+python main.py count --code 3.1.3 --biquandle 11
+```
+```bash
+python main.py bvb_matrix --code 3.1.1 --bvb 2
+```
+```bash
+python main.py bvb_matrix --code 3.1.3 --bvb 2
+```
 
 Example 4.17 / Table 1
-`python main.py count --code 3.1.7 --biquandle 3`
-`python main.py count --code 3.1.9 --biquandle 3`
-`python main.py bvb_matrix --code 3.1.7 --bvb 17`
-`python main.py bvb_matrix --code 3.1.9 --bvb 17`
+```bash
+python main.py count --code 3.1.7 --biquandle 3
+```
+```bash
+python main.py count --code 3.1.9 --biquandle 3
+```
+```bash
+python main.py bvb_matrix --code 3.1.7 --bvb 17
+```
+```bash
+python main.py bvb_matrix --code 3.1.9 --bvb 17
+```
 
 Table 2
-`python main.py all --bvb 17`
+```bash
+python main.py all --bvb 17
+```
 
 Notes
 Biquandles and biquandle virtual brackets are indexed by integers
