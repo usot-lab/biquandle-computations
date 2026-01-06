@@ -111,7 +111,7 @@ python main.py bvb_matrix --code 2.1.1 --bvb 2
 python main.py bvb_matrix --code 4.1.1 --bvb 2
 ```
 
-Example 4.16
+Example 4.15
 ```bash
 python main.py count --code 3.1.1 --biquandle 11
 ```
@@ -125,7 +125,7 @@ python main.py bvb_matrix --code 3.1.1 --bvb 2
 python main.py bvb_matrix --code 3.1.3 --bvb 2
 ```
 
-Example 4.17 / Table 1
+Example 4.16 / Table 1
 ```bash
 python main.py count --code 3.1.7 --biquandle 3
 ```
